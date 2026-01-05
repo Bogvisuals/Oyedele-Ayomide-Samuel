@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(135deg, #11cb52, #fcc325);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+}
+
+/* Card Layout */
+.card {
+    background: #ffffff;
+    width: 90%;
+    max-width: 420px;
+    padding: 30px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Profile Image */
+.profile-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* Text */
+h1 {
+    font-size: 1.8rem;
+}
+
+.title {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+}
+
+/* Button */
+button {
+    background: #000;
+    color: #30fc25;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #30fc25;
+    color: #000;
+}
+
+/* About Section */
+#about {
+    margin-top: 15px;
+    font-size: 0.95rem;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Social Links */
+.socials {
+    margin-top: 20px;
+}
+
+.socials a {
+    margin: 0 8px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+.socials a:hover {
+    color: #0a9b02;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    color: #000;
+    font-size: 0.85rem;
+}
